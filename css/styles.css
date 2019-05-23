@@ -1,12 +1,56 @@
+* {
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+}
+
 html, body {
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner5.jpg");
-    height: 75%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+}
+
+h1 {
+    font-family: fantasy;
+    font-style: italic;
+    padding: 10px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3{
+    position: relative;
+    padding-top: 450px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a:hover, a:active {
+    border-bottom: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+li {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
