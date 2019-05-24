@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0px;
     margin: 0px;
 }
@@ -10,7 +10,8 @@ html, body {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner5.jpg");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner2.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,26 +22,34 @@ html, body {
 h1 {
     font-family: fantasy;
     font-style: italic;
-    padding: 10px;
+    padding: 20px;
+    color: peru;
 }
 
-h1, h3 {
+h1, h6 {
     text-align: center;
 }
 
-h3{
-    position: relative;
-    padding-top: 450px;
+h6 {
+    padding: 50px;
+    font-size: 36px;
+    color: peru;
 }
+
 nav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     padding: 20px;
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+    border-radius: 1%;
+    opacity: 0.4;
+    font-weight: bold;
 }
 
 a:hover, a:active {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 a {
@@ -53,4 +62,33 @@ li {
     width: 150px;
     text-align: center;
     color: white;
+}
+
+main {
+    padding: 0px 100px 0px 100px;
+}
+
+main p {
+    line-height: 40px;
+}
+
+.experience{
+    display: block;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: black;
+    color: rgb(180, 211, 230);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+p.copyright {
+    font-style: italic;
 }
