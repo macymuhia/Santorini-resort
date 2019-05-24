@@ -30,6 +30,35 @@ html, body {
 
 }
 
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row img {
+    width: 500px;
+    height: 300px;
+}
+
+.left {
+    flex: 50%;
+    float: left;
+}
+
+.right {
+    flex: 50%;
+    float: right;
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+figcaption {
+    padding-top: 20px;
+}
+
 h1 {
     font-family: fantasy;
     font-style: italic;
